@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_text">Versione %1$s\n\nDividi le spese condivise e scopri chi deve quanto a chi. Funziona 100%% offline: nessun account, nessuna pubblicità, i dati restano sul telefono.\n\nSviluppata da Python Biella Group.\nIspirata alla dismessa Expense Splitter di Superwheel Software.</string>
+    <string name="report_credit">Generato da Expenses Splitter - sviluppata da Python Biella Group</string>
+
+    <string name="trip">Viaggio</string>
+    <string name="trips">Viaggi</string>
+    <string name="new_trip">Nuovo viaggio</string>
+    <string name="edit_trip">Modifica viaggio</string>
+    <string name="trip_name">Nome del viaggio</string>
+    <string name="trip_desc">Descrizione (facoltativa)</string>
+    <string name="no_trips">Nessun viaggio. Tocca + per crearne uno (es. \"Vacanza Grecia 2026\").</string>
+    <string name="confirm_delete_trip">Eliminare questo viaggio con tutte le persone e le spese?</string>
+    <string name="confirm_delete_expense">Eliminare questo elemento?</string>
+
+    <string name="expenses">Spese</string>
+    <string name="expense">Spesa</string>
+    <string name="people">Persone</string>
+    <string name="balance">Saldo</string>
+    <string name="no_expenses">Nessuna spesa. Tocca + per aggiungerne una.</string>
+    <string name="no_people">Nessuna persona. Tocca + per aggiungere il primo partecipante.</string>
+    <string name="no_people_hint">Aggiungi prima i partecipanti (scheda Persone).</string>
+    <string name="add_person">Aggiungi persona</string>
+    <string name="edit_person">Modifica persona</string>
+    <string name="person_name">Nome</string>
+    <string name="email_optional">E-mail (facoltativa)</string>
+    <string name="phone_optional">Telefono (facoltativo)</string>
+    <string name="person_in_use">Questa persona &#232; usata in alcune spese e non può essere eliminata.</string>
+
+    <string name="new_expense">Nuova spesa</string>
+    <string name="edit_expense">Modifica spesa</string>
+    <string name="description">Descrizione</string>
+    <string name="amount">Importo</string>
+    <string name="amount_in">Importo in</string>
+    <string name="currency">Valuta</string>
+    <string name="rate">Cambio</string>
+    <string name="rate_label">Cambio: 1 %1$s = ? %2$s</string>
+    <string name="payer">Pagato da</string>
+    <string name="date">Data</string>
+    <string name="category">Categoria</string>
+    <string name="type">Tipo</string>
+    <string name="split_rule">Divisione</string>
+    <string name="rule_equal">Pari quote</string>
+    <string name="rule_fixed">Quote fisse</string>
+    <string name="rule_percent">Percentuali</string>
+    <string name="participants">Diviso tra</string>
+    <string name="remaining">Rimanente</string>
+    <string name="distribute_equally">Distribuisci in parti uguali</string>
+    <string name="cat_food">Cibo</string>
+    <string name="cat_transport">Trasporti</string>
+    <string name="cat_lodging">Alloggio</string>
+    <string name="cat_leisure">Svago</string>
+    <string name="cat_shopping">Shopping</string>
+    <string name="cat_other">Altro</string>
+    <string name="receipt">Foto dello scontrino</string>
+    <string name="receipt_short">scontrino</string>
+    <string name="receipt_gallery">Galleria</string>
+    <string name="receipt_camera">Fotocamera</string>
+    <string name="receipt_remove">Rimuovi</string>
+    <string name="error_title">Inserisci una descrizione.</string>
+    <string name="error_amount">Inserisci un importo valido (max 2 decimali).</string>
+    <string name="error_rate">Inserisci un cambio valido.</string>
+    <string name="error_participants">Seleziona almeno un partecipante.</string>
+    <string name="error_split">La divisione non corrisponde al totale (controlla il rimanente).</string>
+
+    <string name="paid">Pagato</string>
+    <string name="owed">Dovuto</string>
+    <string name="total">Totale</string>
+    <string name="pays">paga a</string>
+    <string name="settle_suggestions">Chi paga chi</string>
+    <string name="all_settled">Tutto pareggiato.</string>
+    <string name="register_payment">Registra pagamento</string>
+    <string name="payment">Pagamento</string>
+    <string name="payment_from">Da</string>
+    <string name="payment_to">A</string>
+    <string name="share">Condividi</string>
+    <string name="share_txt">Condividi TXT</string>
+    <string name="share_csv">Condividi CSV</string>
+    <string name="report">Riepilogo</string>
+
+    <string name="menu_backup_json">Backup in JSON</string>
+    <string name="menu_backup_db">Backup database (.db)</string>
+    <string name="menu_import_json">Importa backup JSON (aggiunge viaggi)</string>
+    <string name="menu_restore_db">Ripristina database (.db)</string>
+    <string name="menu_import_legacy">Importa da Expense Splitter originale</string>
+    <string name="menu_about">Informazioni</string>
+    <string name="restore">Ripristina</string>
+    <string name="restore_confirm">Questo sostituisce TUTTI i dati attuali con il file database selezionato. Le foto degli scontrini non fanno parte del backup.</string>
+    <string name="restore_done">Database ripristinato.</string>
+    <string name="backup_saved">Backup salvato.</string>
+    <string name="imported_trips">%1$d viaggi importati (%2$d spese saltate).</string>
+    <string name="operation_failed">Operazione non riuscita: %1$s</string>
+
+    <string name="save">Salva</string>
+    <string name="cancel">Annulla</string>
+    <string name="delete">Elimina</string>
+    <string name="ok">OK</string>
+    <string name="close">Chiudi</string>
+</resources>

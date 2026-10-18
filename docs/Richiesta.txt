@@ -1,0 +1,17 @@
+Usando REA reverse-engineering skill, voglio ricostruire un'applicazione simile a Expense Splitter, su Android, ormai dismessa. Nella cartella trovi apk e backup completo, il DB è su package com.superwheel.expensesplitter
+L'applicazione nasce con l'obiettivo di risolvere il classico problema del "chi deve quanto a chi" alla fine di un evento o di un viaggio condiviso.
+
+Rispetto a piattaforme SaaS basate su cloud (come Splitwise o Tricount), la versione classica/dismessa di Expense Splitter si caratterizzava per una spiccata filosofia local-first / privacy-focused:Funzionamento 100% offline: Nessun obbligo di registrazione utente o di creazione di un account.   Database locale: I dati venivano salvati direttamente sulla memoria dello smartphone (tramite database SQLite o Room su Android).   Interfaccia snella: Strutturata in schermate rapide per l'inserimento istantaneo delle spese anche in assenza di rete (es. durante viaggi all'estero o in montagna). 
+
+Funzionalità Principali1. Gestione Gruppi e PartecipantiCreazione di gruppi o eventi: Possibilità di creare contesti separati (es. "Vacanza Grecia 2026", "Spese Casa", "Cena di Classe").   Aggiunta partecipanti: Inserimento dei nomi dei membri del gruppo senza necessità che questi abbiano l'app installata o un account attivo.2. Registrazione delle Spese (Logging)Importo e Descrizione: Inserimento di cifra, causale (es. "Spesa supermercato", "Carburante", "Hotel") e data.Chi ha pagato (Payer): Selezione del membro che ha anticipato la somma.
+
+Divisione personalizzata (Split rules):Pari quote (Equal): Diviso equamente tra tutti o tra una selezione specifica di membri.   A quote fisse o percentuali: Assegnazione di cifre differenti per partecipante.   Categorizzazione ed Allegati: Tag per categoria (Cibo, Trasporti, Alloggio) e possibilità di allegare una foto dello scontrino/ricevuta.   3. Algoritmo di Bilanciamento e Settle-upCalcolo dei saldi netti: L'app calcola istantaneamente il saldo di ogni persona (chi è in credito e chi è in debito).   Minimizzazione dei trasferimenti (Debt Simplification): Utilizzo di un algoritmo di semplificazione dei debiti per ridurre al minimo il numero di transazioni necessarie alla chiusura del gruppo (es. trasformando 5 debiti incrociati in 2 soli pagamenti diretti).Pareggio dei conti (Settle Up): Funzione per registrare un saldo parziale o totale tra due persone, aggiornando la situazione in tempo reale.
+
+4. Esportazione e Backup dei Dati
+
+    Esportazione file: Generazione di report in formato txt con il riepilogo dettagliato della contabilità da condividere via chat/email.
+
+
+Miglioramenti da apportare:
+- Esportazione file: Generazione di report anche in formato CSV con il riepilogo dettagliato della contabilità da condividere via chat/email.
+- Backup e Ripristino: Possibilità di esportare il database locale in formato .json o .db per trasferire i dati su un altro dispositivo o salvarli su Google Drive.

@@ -1,0 +1,30 @@
+# ===== Android / Gradle =====
+build/
+.gradle/
+.kotlin/
+local.properties
+*.iml
+.idea/
+.cxx/
+captures/
+.externalNativeBuild/
+
+# ===== Segreti — MAI committare =====
+*.jks
+*.keystore
+keystore.properties
+
+# ===== Artefatti locali =====
+*.apk
+*.ab
+*.db
+*.tmp
+
+# ===== Python =====
+venv/
+__pycache__/
+*.pyc
+
+# ===== OS =====
+Thumbs.db
+.DS_Store
