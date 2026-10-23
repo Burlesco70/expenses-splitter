@@ -24,6 +24,7 @@ export JAVA_HOME="$(cd ../toolchain/jdk-17*; pwd)"; export PATH="$JAVA_HOME/bin:
 ./gradlew :app:assembleRelease        # -> app/build/outputs/apk/release/app-release.apk (firmato)
 ```
 PowerShell: `$env:JAVA_HOME="..\toolchain\jdk-17.0.20.1+1"; .\gradlew.bat :app:assembleRelease`.
+Oppure in debug: `$env:JAVA_HOME="..\toolchain\jdk-17.0.20.1+1"; .\gradlew.bat :app:testDebugUnitTest :app:assembleDebug -q`.
 Su un'altra macchina: installa JDK 17 e l'Android SDK (`sdkmanager "platforms;android-34" "build-tools;34.0.0"`), crea `local.properties` con `sdk.dir=C:/percorso/android-sdk` (barre normali) ed esegui gli stessi comandi con `gradlew`.
 Oppure apri la cartella `ExpensesSplitter` con Android Studio (Koala o più recente) e usa *Build > Build APK(s)*.
 

@@ -16,8 +16,9 @@ fun computeBalances(persons: List<PersonData>, expenses: List<ExpenseData>): Map
 fun totalPaid(expenses: List<ExpenseData>, personId: Long) =
     expenses.filter { it.payerId == personId }.sumOf { it.baseCents }
 
+/** Amount spent on behalf of the person (their share of real expenses); settlement payments are excluded. */
 fun totalOwed(expenses: List<ExpenseData>, personId: Long) =
-    expenses.sumOf { it.shares[personId] ?: 0L }
+    expenses.filter { it.kind == Kind.EXPENSE }.sumOf { it.shares[personId] ?: 0L }
 
 /** Simple greedy: biggest debtor pays biggest creditor. At most (n-1) transfers for a zero-sum group. */
 internal fun greedy(balances: Map<Long, Long>): List<Transfer> {

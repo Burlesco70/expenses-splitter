@@ -64,7 +64,7 @@
     <string name="error_split">La divisione non corrisponde al totale (controlla il rimanente).</string>
 
     <string name="paid">Pagato</string>
-    <string name="owed">Dovuto</string>
+    <string name="owed">Speso</string>
     <string name="total">Totale</string>
     <string name="pays">paga a</string>
     <string name="settle_suggestions">Chi paga chi</string>

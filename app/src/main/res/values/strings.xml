@@ -65,7 +65,7 @@
     <string name="error_split">The split does not match the total (check the remaining amount).</string>
 
     <string name="paid">Paid</string>
-    <string name="owed">Owed</string>
+    <string name="owed">Spent</string>
     <string name="total">Total</string>
     <string name="pays">pays</string>
     <string name="settle_suggestions">Who pays whom</string>

@@ -60,7 +60,6 @@ Questo conferma il modello pagato/dovuto/splitter. Non ho invece confrontato i t
 - Esportazione: TXT (formato del report originale), CSV (spese + saldi + trasferimenti) tramite `ACTION_SEND`/`FileProvider`.
 - Backup: JSON con `schemaVersion` e `.db` (copia SQLite dopo checkpoint WAL) tramite Storage Access Framework, quindi anche Google Drive. Ripristino con validazione.
 - Importatore del DB legacy: legge `Splitter` e converte (float→centesimi, date italiane→ISO, scarta splitter orfani: 16 nel backup).
-- Cambia nome dell'applicazione "Expenses splitter" ma cambia package com.pbg.expensessplitter, come credit, developed by "Python Biella Group"
 
 ## Step finale
 - Genera apk e le istruzioni per generarla in autonomia in caso di modifica "manuale"

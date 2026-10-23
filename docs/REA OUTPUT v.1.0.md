@@ -26,7 +26,7 @@ OUTPUT v.1.0
 
  Cosa resta da provare a mano
  - L'import dal database dell'app originale, che non ho eseguito perché dipende da SQLite di Android. Copia legacy-Splitter.db sul telefono e usa il menu ⋮ → "Importa
-   da Expense Splitter originale". Con i tuoi 61 viaggi controlla soprattutto date e saldi.
+   da Expense Splitter originale". Con i tuoi viaggi controlla soprattutto date e saldi.
  - La fotocamera, la condivisione dei file e il ripristino del .db.
  - Le foto degli scontrini non sono incluse nei backup. Le valute sono trattate con 2 decimali.
 
